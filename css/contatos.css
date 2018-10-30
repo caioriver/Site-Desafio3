@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+
+#contatos{
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 1.5;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    background-image: linear-gradient(to right, #666666, #ffffff);
+
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:90%;
+  position:relative;
+  height:0;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.contatos {
+    margin-top: 12%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+}
